@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-standalone
+CivicAI.html
+data/sessions.json
+data/users.json
+.vite
+coverage

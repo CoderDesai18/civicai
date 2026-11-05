@@ -1,0 +1,47 @@
+import type { ServiceDeskCase } from '../types'
+
+export const INITIAL_CASES: ServiceDeskCase[] = [
+  {
+    id: 'C-1042',
+    citizenName: 'Priya S.',
+    documentType: 'Scholarship application',
+    status: 'needs_documents',
+    checklistProgress: 57,
+    staffNotes: 'Income certificate missing. Bank scan unclear. Citizen asked to visit Tehsildar / Aaple Sarkar.',
+    lastUpdated: '2026-08-18',
+    assignedTo: 'Helpdesk — Fergusson desk',
+    analysisId: 'demo-scholarship-mh',
+  },
+  {
+    id: 'C-1043',
+    citizenName: 'R. Kulkarni',
+    documentType: 'Income certificate checklist',
+    status: 'ready_to_apply',
+    checklistProgress: 80,
+    staffNotes: 'All identity proofs checked. Citizen will submit on Aaple Sarkar today.',
+    lastUpdated: '2026-08-19',
+    assignedTo: 'NGO desk — Kothrud',
+    analysisId: 'demo-income-mh',
+  },
+  {
+    id: 'C-1044',
+    citizenName: 'S. Pawar',
+    documentType: 'Domicile notice',
+    status: 'new',
+    checklistProgress: 20,
+    staffNotes: 'Scan has glare. Asked citizen to retake photo of the date line.',
+    lastUpdated: '2026-08-19',
+    assignedTo: 'Unassigned',
+    analysisId: 'demo-domicile-mh',
+  },
+  {
+    id: 'C-1038',
+    citizenName: 'A. Shaikh',
+    documentType: 'Scholarship renewal',
+    status: 'completed',
+    checklistProgress: 100,
+    staffNotes: 'Redacted checklist exported. Citizen submitted on MahaDBT. No personal files retained.',
+    lastUpdated: '2026-08-12',
+    assignedTo: 'College desk — Camp',
+  },
+]

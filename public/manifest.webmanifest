@@ -1,0 +1,18 @@
+{
+  "name": "CivicAI — Legal & Government Assistant",
+  "short_name": "CivicAI",
+  "description": "Understand documents, find government schemes, and take the next step. Informational assistance only.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f5fa",
+  "theme_color": "#16325c",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
