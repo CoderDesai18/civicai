@@ -16,10 +16,14 @@ Guidance is **preliminary information**, not legal advice, not an official gover
 
 | | |
 | --- | --- |
+| **Vercel (full app)** | https://civicai-coderdesai18.vercel.app |
+| **GitHub Pages (offline HTML)** | https://coderdesai18.github.io/civicai/ |
 | **GitHub** | https://github.com/CoderDesai18/civicai |
-| **Live app (GitHub Pages)** | https://coderdesai18.github.io/civicai/ |
-| **Vercel** | Connect Vercel in this chat (or paste a Vercel token) to publish the full app with AI + Firebase. |
-| **Offline file** | [`CivicAI.html`](./CivicAI.html) — same app, double-click, no server |
+| **Offline file** | [`CivicAI.html`](./CivicAI.html) — double-click, no server |
+
+If the Vercel URL shows a Vercel login screen, open **Project → Settings → Deployment Protection** and set it to **Disabled** so the public site loads.
+
+Add `civicai-coderdesai18.vercel.app` to Firebase **Authorized domains** for Google sign-in.
 
 **Demo login (Open dashboard):** `demo@civicai.in` / `CivicAI@2026`
 
